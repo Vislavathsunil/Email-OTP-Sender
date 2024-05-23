@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Step Email Sender</title>
+
+    <!-- Style Link -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- Email Js CDN  -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <div class="step1">
+
+            <h2>OTP Verification</h2>
+
+            <h3>Enter your email address</h3>
+            <p>You will receive an email with one-time password</p>
+            <input type="email" id="email" placeholder="Enter your email address" autocomplete="off">
+
+            <button id="sendBtn">Next </button>
+
+        </div>
+
+        <div class="step2">
+
+            <h2>OTP Verification</h2>
+            <h3>Enter one-time password</h3>
+
+
+            <p>Enter the 4 digit code sent to you via email to continue</p>
+
+            <div class="otp-input">
+                <input type="number" name="" id="">
+                <input type="number" name="" id="">
+                <input type="number" name="" id="">
+                <input type="number" name="" id="">
+            </div>
+
+            <p>If you have trouble to get OTP? <a href="" id="try-again">try again</a></p>
+
+            <button id="verifyBtn">Verify</button>
+        </div>
+        <div class="step3">
+            <h2>Congratualation</h2>
+            <p>Welcome to the  <a href="" id="Home-Page">Home Page</a></p>
+            <img src="success.svg" alt="">
+            <h3>Thank you</h3>
+        </div>
+
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
